@@ -222,7 +222,7 @@ li a {
 
     .navbar-d ul{
         display: flex;
-        font-size: small;
+       font-size: xx-small;
     }
     #nav-bar{
         display: none;
