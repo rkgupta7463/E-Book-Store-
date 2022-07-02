@@ -19,13 +19,13 @@
         <div id="logform">
             <form action="index.html">
             <label for="user_id">User name: </label>
-            <input type="text" placeholder="Enter ur user name" required>
+            <input type="text" placeholder="Enter ur user name="userName" required>
             <br>
             <br>
             <label for="password">
                 Password:
             </label>
-            <input style="margin-left: 10px;" type="password" placeholder="Enter ur password" required>
+            <input style="margin-left: 10px;" type="password" name="upass" placeholder="Enter ur password" required>
             <br>
             <br>
             <input style="margin-left: 104px; margin-top: 10px;" type="checkbox" required>
@@ -40,5 +40,21 @@
             </div>
         </div>
     </div>
+    
+    <script>
+        function validationform(){
+            const userName="";
+            const upass="";
+
+            
+            if(userName && upass){
+                alert("Please filled the form");
+            }
+            else{
+                alert("Successfully Submited")
+            }
+        }
+        console.log("Hello bswere");
+    </script>
 </body>
 </html>
